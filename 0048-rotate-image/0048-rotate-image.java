@@ -8,6 +8,7 @@ class Solution {
             }
         }
         reverse(matrix);
+        //first take transpose then swap the column
     }
     private static void reverse(int[][] matrix){
         for(int i=0;i<matrix.length;i++){
