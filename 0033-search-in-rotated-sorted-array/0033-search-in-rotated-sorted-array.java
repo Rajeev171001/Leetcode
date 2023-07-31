@@ -13,7 +13,7 @@ class Solution {
                 }else{
                     low=mid+1;
                 }
-            }else{
+            }else{//right part sorted
                 if(target<=nums[high] && nums[mid]<target){
                     low=mid+1;
                 }else{
