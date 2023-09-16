@@ -27,7 +27,9 @@ class Solution {
             slow=slow.next;
             fast=fast.next.next;
         }
-        slow.next=reverseList(slow.next);
+        //we reverse the linked list after middle element and compare from starting and after middle
+        
+        slow.next=reverseList(slow.next); //to make the connection reversed linked list to original
         ListNode start=head;
         ListNode mid=slow.next;
         while(mid!=null){
